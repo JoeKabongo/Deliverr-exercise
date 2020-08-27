@@ -47,8 +47,8 @@ def get_cheapest_shipment(order, warehouses):
 def find_possible_shipment(order, items_left, warehouses, index, current_result, final_result):
     """
         Recursively go through each warehouses
-        1. recursive call two options, grab items from this warehouse or dont grab them
-        2. if at any path we found all items, we dont continue any longer with that recursive path
+        1. Function explore two options, grab items from this warehouse or ignore warehouse
+        2. if at any point we found all items, we dont continue any longer with that recursive path
 
     """
     #base case, we have considered all warehouses 
