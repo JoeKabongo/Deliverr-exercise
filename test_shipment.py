@@ -1,5 +1,5 @@
 import unittest
-from deliverr import get_cheapest_shipment
+from shipment import get_cheapest_shipment
 
 
 class TestCheapestShipment(unittest.TestCase):
