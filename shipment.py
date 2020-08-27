@@ -98,8 +98,7 @@ def get_cheapest_option(shipment_lists, warehouses):
     """
         Given list of shipment, find cheapest one
         1. Find the shipment with the least warehouses
-        2. If more than one, take the shipment whose sums of warehouse index 
-        is smallest since warehourse are presort by shipping cost
+        2. If more than one, take the shipment whose sums of warehouse index is smallest since warehourse are presort by shipping cost
     """
 
     #find shipmennts with the least involved warehouses
